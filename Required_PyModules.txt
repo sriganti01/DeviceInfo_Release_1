@@ -1,0 +1,17 @@
+certifi
+charset-normalizer
+et-xmlfile
+idna
+Jinja2
+MarkupSafe
+numpy
+openpyxl
+pandas
+python-dateutil
+pytz
+requests
+six
+thrift
+tzdata
+urllib3
+XlsxWriter
