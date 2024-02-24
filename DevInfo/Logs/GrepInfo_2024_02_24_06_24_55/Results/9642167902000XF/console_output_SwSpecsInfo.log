@@ -1,0 +1,138 @@
+2024-02-24 06:24:55,133 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 9642167902000XF
+2024-02-24 06:24:55,133 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  get-serialno 
+2024-02-24 06:24:55,133 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,133 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                9642167902000XF
+2024-02-24 06:24:55,167 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 9642167902000XF
+2024-02-24 06:24:55,167 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  get-serialno 
+2024-02-24 06:24:55,167 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,167 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                9642167902000XF
+2024-02-24 06:24:55,260 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - kona
+2024-02-24 06:24:55,260 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.board.platform 
+2024-02-24 06:24:55,261 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,261 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                           kona
+2024-02-24 06:24:55,343 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - vivo
+2024-02-24 06:24:55,343 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.product.manufacturer 
+2024-02-24 06:24:55,343 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,343 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                           vivo
+2024-02-24 06:24:55,426 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - Qualcomm
+2024-02-24 06:24:55,426 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.soc.manufacturer 
+2024-02-24 06:24:55,426 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,426 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                       Qualcomm
+2024-02-24 06:24:55,504 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - SM8250
+2024-02-24 06:24:55,504 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.soc.model 
+2024-02-24 06:24:55,504 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,504 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         SM8250
+2024-02-24 06:24:55,585 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - mdm
+2024-02-24 06:24:55,586 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.baseband 
+2024-02-24 06:24:55,586 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,586 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                            mdm
+2024-02-24 06:24:55,665 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - dsds
+2024-02-24 06:24:55,665 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.radio.multisim.config 
+2024-02-24 06:24:55,665 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,665 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                           dsds
+2024-02-24 06:24:55,790 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - [persist.vivo.radio.type.list]: [TDD-LTE,FDD-LTE,CDMA2000,WCDMA,GSM]
+2024-02-24 06:24:55,790 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  | grep -i radio.type.list 
+2024-02-24 06:24:55,790 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,790 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output : [persist.vivo.radio.type.list]: [TDD-LTE,FDD-LTE,CDMA2000,WCDMA,GSM]
+2024-02-24 06:24:55,903 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - [persist.vivo.phone.panel_type]: [Amoled]
+2024-02-24 06:24:55,903 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  | grep -i panel_type 
+2024-02-24 06:24:55,903 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,903 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output : [persist.vivo.phone.panel_type]: [Amoled]
+2024-02-24 06:24:55,982 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - adreno
+2024-02-24 06:24:55,982 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.hardware.egl 
+2024-02-24 06:24:55,982 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:55,982 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         adreno
+2024-02-24 06:24:56,065 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - SN100x
+2024-02-24 06:24:56,065 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.hardware.nfc_nci 
+2024-02-24 06:24:56,065 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,065 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         SN100x
+2024-02-24 06:24:56,145 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 3
+2024-02-24 06:24:56,145 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  sys.usb.mtp.device_type 
+2024-02-24 06:24:56,145 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,145 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                              3
+2024-02-24 06:24:56,223 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 4
+2024-02-24 06:24:56,223 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.vendor.camera.sensor.number 
+2024-02-24 06:24:56,223 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,223 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                              4
+2024-02-24 06:24:56,303 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 4
+2024-02-24 06:24:56,303 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.vendor.camera.sensor.number 
+2024-02-24 06:24:56,303 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,303 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                              4
+2024-02-24 06:24:56,385 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - imx598
+2024-02-24 06:24:56,385 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.vendor.camera.sensor0
+2024-02-24 06:24:56,385 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,385 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         imx598
+2024-02-24 06:24:56,465 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - s5k3p9
+2024-02-24 06:24:56,465 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.vendor.camera.sensor1
+2024-02-24 06:24:56,465 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,465 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         s5k3p9
+2024-02-24 06:24:56,541 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - gc02m1b
+2024-02-24 06:24:56,542 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.vendor.camera.sensor2
+2024-02-24 06:24:56,542 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,542 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                        gc02m1b
+2024-02-24 06:24:56,622 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - s5k3l6
+2024-02-24 06:24:56,622 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.vendor.camera.sensor3
+2024-02-24 06:24:56,622 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,622 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         s5k3l6
+2024-02-24 06:24:56,726 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - Physical size: 1080x2400
+2024-02-24 06:24:56,726 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  wm  size 
+2024-02-24 06:24:56,726 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,726 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :       Physical size: 1080x2400
+2024-02-24 06:24:56,826 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - Physical density: 440
+2024-02-24 06:24:56,826 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  wm  density 
+2024-02-24 06:24:56,826 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,826 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :          Physical density: 440
+2024-02-24 06:24:56,927 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - lock 0
+2024-02-24 06:24:56,927 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  wm  user-rotation 
+2024-02-24 06:24:56,928 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:56,928 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                         lock 0
+2024-02-24 06:24:57,026 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - Supports non-resizable in multi window: 0
+Respects activity min width/height in multi window: 0
+2024-02-24 06:24:57,026 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  wm  get-multi-window-config 
+2024-02-24 06:24:57,026 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:57,026 INFO     SpecsInfo.MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output : Supports non-resizable in multi window: 0
+Respects activity min width/height in multi window: 0
+2024-02-24 06:24:57,059 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - Android Debug Bridge version 1.0.41
+Version 34.0.5-10900879
+Installed as C:\Users\sriga\AppData\Local\Android\Sdk\platform-tools\adb.exe
+Running on Windows 10.0.22621
+2024-02-24 06:24:57,059 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed :  adb wait-for-device  version 
+2024-02-24 06:24:57,059 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:57,059 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output : Android Debug Bridge version 1.0.41
+Version 34.0.5-10900879
+Installed as C:\Users\sriga\AppData\Local\Android\Sdk\platform-tools\adb.exe
+Running on Windows 10.0.22621
+2024-02-24 06:24:57,142 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 13
+2024-02-24 06:24:57,142 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.build.version.release 
+2024-02-24 06:24:57,142 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:57,143 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                             13
+2024-02-24 06:24:57,224 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 4.19
+2024-02-24 06:24:57,224 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.kernel.version 
+2024-02-24 06:24:57,224 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:24:57,225 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                           4.19
+2024-02-24 06:25:24,093 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - GLES: Qualcomm, Adreno (TM) 650, OpenGL ES 3.2 V@0502.0 (GIT@954c274f64, I3b030ac11d, 1636976961) (Date:11/15/21)
+    Proc kworker/u16:0-governor_msm_adreno_tz_:
+2024-02-24 06:25:24,093 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  dumpsys | grep -i  adreno
+2024-02-24 06:25:24,093 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:25:24,093 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output : GLES: Qualcomm, Adreno (TM) 650, OpenGL ES 3.2 V@0502.0 (GIT@954c274f64, I3b030ac11d, 1636976961) (Date:11/15/21)
+    Proc kworker/u16:0-governor_msm_adreno_tz_:
+2024-02-24 06:25:24,169 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 0
+2024-02-24 06:25:24,169 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  persist.sys.is_root 
+2024-02-24 06:25:24,169 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:25:24,169 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                              0
+2024-02-24 06:25:24,246 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 33
+2024-02-24 06:25:24,246 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.build.version.sdk 
+2024-02-24 06:25:24,246 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:25:24,246 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                             33
+2024-02-24 06:25:24,325 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 33
+2024-02-24 06:25:24,325 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.product.build.version.sdk 
+2024-02-24 06:25:24,325 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:25:24,325 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                             33
+2024-02-24 06:25:24,404 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 33
+2024-02-24 06:25:24,404 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.system.build.version.sdk 
+2024-02-24 06:25:24,404 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:25:24,404 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                             33
+2024-02-24 06:25:24,478 DEBUG    Base.Commands  [Commands.py:97] [MainThread]  Command output - 30
+2024-02-24 06:25:24,479 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:96] [MainThread]               Command Executed : adb wait-for-device  shell  getprop  ro.vendor.build.version.sdk 
+2024-02-24 06:25:24,479 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:98] [MainThread]                 Command Status :                        Success
+2024-02-24 06:25:24,479 INFO     MobileSpecsInfo  [MobileSpecsInfo.py:101] [MainThread]                 Command Output :                             30

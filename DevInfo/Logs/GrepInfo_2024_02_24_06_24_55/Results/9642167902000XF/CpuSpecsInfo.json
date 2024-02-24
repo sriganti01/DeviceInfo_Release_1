@@ -1,0 +1,216 @@
+{
+    "Cluster0": {
+        "Number_Of_Cores": 4,
+        "Core_Architecture": "AArch64 Processor rev 14 (aarch64)",
+        "Cluster_Id": 0,
+        "Cores_List": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "Cores_Offline": [
+            "5",
+            "6"
+        ],
+        "Cores_Online": [
+            "0-4",
+            "7"
+        ],
+        "Minimum_Frequency_Per_Core": [
+            "691200"
+        ],
+        "Maximum_Frequency_Per_Core": [
+            "1804800"
+        ],
+        "Current_Frequency_Per_Core": [
+            "1804800"
+        ],
+        "Cpu_Capacity_Per_Core": [
+            "313"
+        ],
+        "Input_Boost_Freq": [
+            "0:1324800",
+            "1:0",
+            "2:0",
+            "3:0",
+            "4:0",
+            "5:0",
+            "6:0",
+            "7:0"
+        ],
+        "Current_Governor_Per_Core": [
+            "schedutil"
+        ],
+        "Available_Frequencies_Per_Core": [
+            "300000",
+            "403200",
+            "518400",
+            "614400",
+            "691200",
+            "787200",
+            "883200",
+            "979200",
+            "1075200",
+            "1171200",
+            "1248000",
+            "1344000",
+            "1420800",
+            "1516800",
+            "1612800",
+            "1708800",
+            "1804800"
+        ],
+        "Available_Governors__Per_Core": [
+            "conservative",
+            "ondemand",
+            "userspace",
+            "powersave",
+            "performance",
+            "schedutil"
+        ]
+    },
+    "Cluster1": {
+        "Number_Of_Cores": 3,
+        "Core_Architecture": "AArch64 Processor rev 14 (aarch64)",
+        "Cluster_Id": 1,
+        "Cores_List": [
+            "4",
+            "5",
+            "6"
+        ],
+        "Cores_Offline": [
+            "5",
+            "6"
+        ],
+        "Cores_Online": [
+            "0-4",
+            "7"
+        ],
+        "Minimum_Frequency_Per_Core": [
+            "710400"
+        ],
+        "Maximum_Frequency_Per_Core": [
+            "2419200"
+        ],
+        "Current_Frequency_Per_Core": [
+            "2419200"
+        ],
+        "Cpu_Capacity_Per_Core": [
+            "777"
+        ],
+        "Input_Boost_Freq": [
+            "0:1324800",
+            "1:0",
+            "2:0",
+            "3:0",
+            "4:0",
+            "5:0",
+            "6:0",
+            "7:0"
+        ],
+        "Current_Governor_Per_Core": [
+            "schedutil"
+        ],
+        "Available_Frequencies_Per_Core": [
+            "710400",
+            "825600",
+            "940800",
+            "1056000",
+            "1171200",
+            "1286400",
+            "1382400",
+            "1478400",
+            "1574400",
+            "1670400",
+            "1766400",
+            "1862400",
+            "1958400",
+            "2054400",
+            "2150400",
+            "2246400",
+            "2342400",
+            "2419200"
+        ],
+        "Available_Governors__Per_Core": [
+            "conservative",
+            "ondemand",
+            "userspace",
+            "powersave",
+            "performance",
+            "schedutil"
+        ]
+    },
+    "Cluster2": {
+        "Number_Of_Cores": 1,
+        "Core_Architecture": "AArch64 Processor rev 14 (aarch64)",
+        "Cluster_Id": 2,
+        "Cores_List": [
+            "7"
+        ],
+        "Cores_Offline": [
+            "5",
+            "6"
+        ],
+        "Cores_Online": [
+            "0-4",
+            "7"
+        ],
+        "Minimum_Frequency_Per_Core": [
+            "844800"
+        ],
+        "Maximum_Frequency_Per_Core": [
+            "2265600"
+        ],
+        "Current_Frequency_Per_Core": [
+            "844800"
+        ],
+        "Cpu_Capacity_Per_Core": [
+            "1024"
+        ],
+        "Input_Boost_Freq": [
+            "0:1324800",
+            "1:0",
+            "2:0",
+            "3:0",
+            "4:0",
+            "5:0",
+            "6:0",
+            "7:0"
+        ],
+        "Current_Governor_Per_Core": [
+            "schedutil"
+        ],
+        "Available_Frequencies_Per_Core": [
+            "844800",
+            "960000",
+            "1075200",
+            "1190400",
+            "1305600",
+            "1401600",
+            "1516800",
+            "1632000",
+            "1747200",
+            "1862400",
+            "1977600",
+            "2073600",
+            "2169600",
+            "2265600",
+            "2361600",
+            "2457600",
+            "2553600",
+            "2649600",
+            "2745600",
+            "2841600",
+            "3187200"
+        ],
+        "Available_Governors__Per_Core": [
+            "conservative",
+            "ondemand",
+            "userspace",
+            "powersave",
+            "performance",
+            "schedutil"
+        ]
+    }
+}

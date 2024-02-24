@@ -1,0 +1,27 @@
+{
+    "Deviceserialno": "9642167902000XF",
+    "HardwareBoardPlatform": "kona",
+    "ProductManufacturer": "vivo",
+    "ProductSocManufacturer": "Qualcomm",
+    "SocModel": "SM8250",
+    "HardwareBaseBand": "mdm",
+    "DeviceModemType": "dsds",
+    "DeviceRadioTypeList": "TDD-LTE,FDD-LTE,CDMA2000,WCDMA,GSM",
+    "HardwareGPUPlatform": "adreno",
+    "NFCChipType": "SN100x",
+    "UsbMtpDeviceType": "3",
+    "NoOfCameraSensors": "4",
+    "CameraSensorNames": [
+        "imx598",
+        "s5k3p9",
+        "gc02m1b",
+        "s5k3l6"
+    ],
+    "PhysicalDeviceScreenSize": "1080x2400",
+    "PhysicalDeviceScreenDensity": "440",
+    "PhysicalDeviceScreenRotation": "lock 0",
+    "PhysicalDeviceScreenMultiWindowConfig": [
+        "Supports non-resizable in multi window: 0",
+        "Respects activity min width/height in multi window: 0"
+    ]
+}
